@@ -1,0 +1,668 @@
+<!doctype html>
+
+<html lang="ru">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Эксперты</title>
+
+  <meta id="vp" name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+  <style>.wrap{opacity: 0;}</style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+
+<div class="wrap">
+
+    <header class="header header-second">
+
+    <div class="container page_content">
+
+        <div class="header-top">
+
+            <a href="javascript:void(0);" class="header-top__logo"><img width="160" height="34" src="./img/Incourse-white.png"></a>
+
+            <a href="https://italdesign.it" target="_blank" class="header-top__absolute"><img width="135" height="34" src="./img/idg-white.png"></a>
+
+            <a href="#" class="header__lk">
+
+            <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                <path d="M18 24.0006H16V18.9576C15.9992 18.1736 15.6874 17.4219 15.133 16.8676C14.5787 16.3132 13.827 16.0014 13.043 16.0006H4.957C4.173 16.0014 3.42134 16.3132 2.86696 16.8676C2.31259 17.4219 2.00079 18.1736 2 18.9576V24.0006H0V18.9576C0.00158783 17.6434 0.524351 16.3835 1.45363 15.4542C2.3829 14.525 3.64281 14.0022 4.957 14.0006H13.043C14.3572 14.0022 15.6171 14.525 16.5464 15.4542C17.4756 16.3835 17.9984 17.6434 18 18.9576V24.0006Z" fill="white"/>
+
+                <path d="M9 11.9999C7.81332 11.9999 6.65328 11.648 5.66658 10.9888C4.67989 10.3295 3.91085 9.3924 3.45673 8.29604C3.0026 7.19969 2.88378 5.99329 3.11529 4.8294C3.3468 3.66551 3.91825 2.59642 4.75736 1.7573C5.59648 0.918186 6.66558 0.346741 7.82946 0.11523C8.99335 -0.116281 10.1997 0.00253868 11.2961 0.456664C12.3925 0.91079 13.3295 1.67983 13.9888 2.66652C14.6481 3.65321 15 4.81325 15 5.99994C14.9984 7.59075 14.3658 9.11595 13.2409 10.2408C12.116 11.3657 10.5908 11.9984 9 11.9999ZM9 1.99994C8.20888 1.99994 7.43552 2.23454 6.77772 2.67406C6.11993 3.11359 5.60724 3.7383 5.30448 4.46921C5.00173 5.20011 4.92252 6.00438 5.07686 6.7803C5.2312 7.55623 5.61217 8.26896 6.17158 8.82837C6.73099 9.38778 7.44372 9.76874 8.21964 9.92308C8.99557 10.0774 9.79983 9.99821 10.5307 9.69546C11.2616 9.39271 11.8864 8.88002 12.3259 8.22222C12.7654 7.56443 13 6.79107 13 5.99994C13 4.93908 12.5786 3.92166 11.8284 3.17151C11.0783 2.42137 10.0609 1.99994 9 1.99994Z" fill="white"/>
+
+            </svg>
+
+            <span>Incourse Club</span>
+
+        </a>
+
+        </div>
+
+        <div class="header-bottom">
+
+            <div class="header__breadcrumbs">
+
+                <a href="#">Главная</a>
+
+                <span></span>
+
+                <a href="#">Эксперты</a>
+
+            </div>
+
+            <div class="header__title">
+
+                Эксперты
+
+            </div>
+
+            <div class="header__filter-desc" id="header_filter">
+
+                <a href="#" rel="all_filter" class="current">Все эксперты</a>
+
+                <a href="#" rel="cat_1">Название экспертизы</a>
+
+                <a href="#" rel="cat_2">Экспертиза</a>
+
+                <a href="#" rel="cat_3">Слово</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<div class="main">
+
+    <div class="container sectionBlock experts-page">
+
+            <div class="header__filter-mob" id="header_filter">
+
+                <a href="#" rel="all_filter" class="current">Все эксперты</a>
+
+                <a href="#" rel="cat_3">Слово</a>
+
+                <a href="#" rel="cat_1">Название экспертизы</a>
+
+                <a href="#" rel="cat_2">Экспертиза</a>
+
+            </div>
+
+            <div class="experts-page__wrapper" id="all-category">
+
+               <div class="experts-card all_filter cat_1">
+
+                   <a href="#" class="experts-card__link"></a>
+
+                   <img src="./img/expert-slide-1.jpg" alt="photo of expert">
+
+                   <h3 class="experts__name">Мария Вешневская</h3>
+
+                   <svg class="experts__arrow" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                       <path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 9H30V7H0V9Z" fill="#D63642"/>
+
+                   </svg>
+
+                   <p class="experts-description">Название экспертизы, второе</p>
+
+               </div>
+
+               <div class="experts-card all_filter cat_1">
+
+                   <a href="#" class="experts-card__link"></a>
+
+                   <img src="./img/expert-slide-1.jpg" alt="photo of expert">
+
+                   <h3 class="experts__name">Мария Вешневская-2</h3>
+
+                   <svg class="experts__arrow" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                       <path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 9H30V7H0V9Z" fill="#D63642"/>
+
+                   </svg>
+
+                   <p class="experts-description">Название экспертизы, слово</p>
+
+               </div>
+
+               <div class="experts-card all_filter cat_2">
+
+                   <a href="#" class="experts-card__link"></a>
+
+                   <img src="./img/expert-slide-1.jpg" alt="photo of expert">
+
+                   <h3 class="experts__name">Мария Вешневская-3</h3>
+
+                   <svg class="experts__arrow" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                       <path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 9H30V7H0V9Z" fill="#D63642"/>
+
+                   </svg>
+
+                   <p class="experts-description">Название экспертизы, слово, слово</p>
+
+               </div>
+
+               <div class="experts-card all_filter cat_2">
+
+                   <a href="#" class="experts-card__link"></a>
+
+                   <img src="./img/expert-slide-1.jpg" alt="photo of expert">
+
+                   <h3 class="experts__name">Мария Вешневская-4</h3>
+
+                   <svg class="experts__arrow" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                       <path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 9H30V7H0V9Z" fill="#D63642"/>
+
+                   </svg>
+
+                   <p class="experts-description">Название экспертизы, бла бла</p>
+
+               </div>
+
+           </div>
+
+        <div class="experts-page__wrapper" id="all-category">
+
+               <div class="experts-card all_filter cat_3">
+
+                   <a href="#" class="experts-card__link"></a>
+
+                   <img src="./img/expert-slide-1.jpg" alt="photo of expert">
+
+                   <h3 class="experts__name">Мария Вешневская</h3>
+
+                   <svg class="experts__arrow" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                       <path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 9H30V7H0V9Z" fill="#D63642"/>
+
+                   </svg>
+
+                   <p class="experts-description">Название экспертизы, второе</p>
+
+               </div>
+
+               <div class="experts-card all_filter cat_3">
+
+                   <a href="#" class="experts-card__link"></a>
+
+                   <img src="./img/expert-slide-1.jpg" alt="photo of expert">
+
+                   <h3 class="experts__name">Мария Вешневская</h3>
+
+                   <svg class="experts__arrow" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                       <path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 9H30V7H0V9Z" fill="#D63642"/>
+
+                   </svg>
+
+                   <p class="experts-description">Название экспертизы, второе</p>
+
+               </div>
+
+               <div class="experts-card all_filter cat_3">
+
+                   <a href="#" class="experts-card__link"></a>
+
+                   <img src="./img/expert-slide-1.jpg" alt="photo of expert">
+
+                   <h3 class="experts__name">Мария Вешневская</h3>
+
+                   <svg class="experts__arrow" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                       <path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 9H30V7H0V9Z" fill="#D63642"/>
+
+                   </svg>
+
+                   <p class="experts-description">Название экспертизы, второе</p>
+
+               </div>
+
+               <div class="experts-card all_filter cat_3">
+
+                   <a href="#" class="experts-card__link"></a>
+
+                   <img src="./img/expert-slide-1.jpg" alt="photo of expert">
+
+                   <h3 class="experts__name">Мария Вешневская</h3>
+
+                   <svg class="experts__arrow" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                       <path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 9H30V7H0V9Z" fill="#D63642"/>
+
+                   </svg>
+
+                   <p class="experts-description">Название экспертизы, второе</p>
+
+               </div>
+
+           </div>
+
+        <div class="experts-page-popup experts-hidden">
+
+            <button class="experts-page-popup__close">
+
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <path d="M25 23.6L13.9 12.5L24.7 1.7L23.3 0.3L12.5 11.1L1.4 0L0 1.4L11.1 12.5L0.3 23.3L1.7 24.7L12.5 13.9L23.6 25L25 23.6Z" fill="black" fill-opacity="0.3"/>
+
+                </svg>
+
+            </button>
+
+            <img src="./img/expert-slide-1.jpg" alt="photo of expert">
+
+            <div class="experts-page-popup__content">
+
+                <h3 class="experts__name experts-page-popup__name">Мария Вешневская</h3>
+
+                <p class="experts-description popup-expertise">Название экспертизы, второе</p>
+
+                <hr class="experts-page-popup__line">
+
+                <p  class="experts-page-popup__text">
+
+                    Данный курс предлагает слушателям взглянуть изнутри на то, как устроены процессы работы одной из лучших мировых студий промышленного дизайна Italdesign.
+
+                    Это ранее недоступная возможность получить доступ к опыту и знаниям, бережно выверенным и собранным за более чем 50 лет работы компании, создавшей огромное количество предметов, транспорта и автомобилей, которые нас окружают.<br>
+
+                    Бережно выверенным и собранным за более чем 50 лет работы.
+
+                    Данный курс предлагает слушателям взглянуть изнутри на то, как устроены процессы работы одной из лучших мировых студий промышленного дизайна Italdesign.
+
+                    Это ранее недоступная возможность получить доступ к опыту и знаниям, бережно выверенным и собранным за более чем 50 лет работы компании, создавшей огромное количество предметов, транспорта и автомобилей, которые нас окружают.<br>
+
+                    Бережно выверенным и собранным за более чем 50 лет работы.
+
+                    Данный курс предлагает слушателям взглянуть изнутри на то, как устроены процессы работы одной из лучших мировых студий промышленного дизайна Italdesign.
+
+                    Это ранее недоступная возможность получить доступ к опыту и знаниям, бережно выверенным и собранным за более чем 50 лет работы компании, создавшей огромное количество предметов, транспорта и автомобилей, которые нас окружают.<br>
+
+                    Бережно выверенным и собранным за более чем 50 лет работы.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="experts-page-overlay experts-hidden"></div>
+
+        </div>
+
+    <div class="container page_content sectionBlock">
+
+        <div>
+
+            <div class="buyBlock">
+
+                <div class="buyBlock__main">
+
+                    <div><strong>Ближайший курс: </strong>с 26 по 28 января</div>
+
+                    <div><strong>Где: </strong><span><span>Инновационный центр Сколково Москва,  <span>Большой&nbsp;бульвар, 42с1, капсула №3.</span></span></span></div>
+
+                    <a href="javascript:void(0);" class="button-default">купить курс</a>
+
+                </div>
+
+                <div class="buyBlock__or"><span>связаться с нами</span></div>
+
+                <div class="buyBlock__contact">
+
+                    <div class="">
+
+                        <div>+7 495 663 51 24 / <a href="mailto:info@incourse.online">info@incourse.online</a> </div>
+
+                        <div class="buyBlock__download">
+
+                            <a href="https://drive.google.com/file/d/1q1qnK8bE-2YTSYpVlvP2D7CMWStSZFv_/view?usp=sharing" target="_blank"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="22px" height="22px"><path d="M 7 2 L 7 48 L 43 48 L 43 14.59375 L 42.71875 14.28125 L 30.71875 2.28125 L 30.40625 2 Z M 9 4 L 29 4 L 29 16 L 41 16 L 41 46 L 9 46 Z M 31 5.4375 L 39.5625 14 L 31 14 Z"/></svg> Скачать брошюру</a>
+
+                            <a href="https://drive.google.com/file/d/1AZsXYoItz_shhxt2g_notCOfDBYV7IOi/view?usp=sharing" target="_blank"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="22px" height="22px"><path d="M 30.398438 2 L 7 2 L 7 48 L 43 48 L 43 14.601563 Z M 30 15 L 30 4.398438 L 40.601563 15 Z"/></svg> Скачать КП</a>
+
+                        </div>
+
+                        <a href="javascript:void(0);" class="button-invert">обратная связь</a>
+
+                    </div>
+
+                
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <h1>Штаб-квартира Italdesign:</h1><hr>
+
+            <sup>
+
+                <a href="https://italdesign.it" target="_blank"> Via Achille Grandi, 21/25 Moncalieri (TO), Italy</a>
+
+                <br>
+
+                <br></sup>
+
+            <a data-fancybox="gallery" href="img/AU140135_full.jpg"><img width="1160" height="625"src="img/AU140135_full.jpg"></a><br>
+
+        </div>
+
+    </div>
+
+
+
+</div><!-- main -->
+
+<footer class="footer">
+
+  <div class="container page_content sectionBlock">
+
+    <div class="page_content">
+
+      <div>
+
+        <div class="footer__title">Основы</div>
+
+        <br>
+
+        <small>50 лет опыта<br>Italdesign-Giugiaro&nbsp;<br>в 12 часовом курсе</small><br>
+
+        </div>
+
+        <div>
+
+          <div class="footer__title">Экспертиза</div>
+
+          <br>
+
+          <small>
+
+          Италия, Россия
+
+          <br>
+
+          Машиностроение<br>
+
+          Маркетинг, RND</small><br>
+
+          </div>
+
+    </div>
+
+    <div class="page_content">
+
+      <div>
+
+        <div class="footer__title">Форматы</div>
+
+        <br>
+
+        <small>Двухдневный интенсив<br>
+
+        Персональный VIP<br>Онлайн&nbsp;<br></small><br>
+
+        </div>
+
+        <div>
+
+          <div class="footer__title">Локации</div>
+
+          <br>
+
+          <small>
+
+          
+
+          На вашем предприятии<br>В вашем регионе <br>В офисе ItalDeisgn
+
+          
+
+          </small><br>
+
+          </div>
+
+    </div>
+
+  </div>
+
+  <div class="container page_content sectionBlock">
+
+    <div><small>Incourse, Inc. Moscow, Russia<br>
+
+    </small>
+
+    </div>
+
+    <div ><small><span style="color: #000;">Официальный партнер&nbsp;<a href="https://italdesign.it" target="_blank">ItalDesign-Giugiaro S.p.A.<img width="10" height="10" src="img/arr.png" style="width: 10px;height: auto;margin: 0 0 8px 4px;"></a><a href="https://italdesign.it" target="_blank"></a> на территории России</span></small></div>
+
+  </div>
+
+</footer>
+
+<div class="popup popupForm" id="popupBuy">
+
+  <a class="closeFonPopup" href="javascript:void(0);"></a>
+
+  <div class="popup__wrap1">
+
+    <div class="popup__wrap2">
+
+      <div class="popup__container">
+
+        <a class="popup__close fa fa-times" href="javascript:void(0);"></a>
+
+       <div class="b24-form"><div id="b24-3099240026444193083046614524656" data-styles-apllied="true" class="b24-form-dark b24-form-style-modern"><div class="b24-form-wrapper"><div class="b24-form-header b24-form-padding-side"><div class="b24-form-header-title">Курс о промышленном дизайне</div> <div class="b24-form-header-description">Заполните данные, чтобы записаться на курс</div></div> <div class="b24-form-content b24-form-padding-side"><form method="post" novalidate="novalidate"><!----> <div><div class="b24-form-field b24-form-field-last-name b24-form-control-string"><div><div><div class="b24-form-control-container b24-form-control-icon-after"><input name="lastname" autocomplete="family-name" type="string" class="b24-form-control"> <div class="b24-form-control-label">
+
+				Фамилия 
+
+				<span class="b24-form-control-required">*</span></div> <!----> <!----> <div class="b24-form-control-alert-message" style="display: none;">
+
+			Поле обязательно для заполнения
+
+		</div></div></div> <!----> <!----></div> <!----></div><div class="b24-form-field b24-form-field-name b24-form-control-string"><div><div><div class="b24-form-control-container b24-form-control-icon-after"><input name="name" autocomplete="given-name" type="string" class="b24-form-control"> <div class="b24-form-control-label">
+
+				Имя 
+
+				<span class="b24-form-control-required">*</span></div> <!----> <!----> <div class="b24-form-control-alert-message" style="display: none;">
+
+			Поле обязательно для заполнения
+
+		</div></div></div> <!----> <!----></div> <!----></div><div class="b24-form-field b24-form-field-second-name b24-form-control-string"><div><div><div class="b24-form-control-container b24-form-control-icon-after"><input name="secondname" autocomplete="additional-name" type="string" class="b24-form-control"> <div class="b24-form-control-label">
+
+				Отчество 
+
+				<span class="b24-form-control-required" style="display: none;">*</span></div> <!----> <!----> <div class="b24-form-control-alert-message" style="display: none;">
+
+			
+
+		</div></div></div> <!----> <!----></div> <!----></div><div class="b24-form-field b24-form-field-phone b24-form-control-string"><div><div><div class="b24-form-control-container b24-form-control-icon-after"><input name="phone" autocomplete="tel" type="tel" class="b24-form-control"> <div class="b24-form-control-label">
+
+				Телефон 
+
+				<span class="b24-form-control-required">*</span></div> <!----> <!----> <div class="b24-form-control-alert-message" style="display: none;">
+
+			Поле обязательно для заполнения
+
+		</div></div></div> <!----> <!----></div> <!----></div><div class="b24-form-field b24-form-field-email b24-form-control-string"><div><div><div class="b24-form-control-container b24-form-control-icon-after"><input name="email" autocomplete="email" type="email" class="b24-form-control"> <div class="b24-form-control-label">
+
+				E-mail 
+
+				<span class="b24-form-control-required">*</span></div> <!----> <!----> <div class="b24-form-control-alert-message" style="display: none;">
+
+			Поле обязательно для заполнения
+
+		</div></div></div> <!----> <!----></div> <!----></div></div> <div><div class="b24-form-field b24-form-field-agreement b24-form-control-agreement"><!----> <div><label class="b24-form-control-container"><input type="checkbox" onclick="this.blur()"> <span class="b24-form-control-desc"><span class="b24-form-field-agreement-link">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих
+
+персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей,
+
+определенных в Согласии на обработку персональных данных</span></span> <span class="b24-form-control-required">*</span> <div class="b24-form-control-alert-message" style="display: none;">
+
+			
+
+		</div></label> <!----></div></div><div class="b24-form-field b24-form-field-agreement b24-form-control-agreement"><!----> <div><label class="b24-form-control-container"><input type="checkbox" onclick="this.blur()"> <span class="b24-form-control-desc"><a href="https://drive.google.com/file/d/1JKh5bCzBqq9lJFoFFsN1tjs0bi3SO6_Y/view" target="_blank" class="b24-form-field-agreement-link">Нажимая на кнопку, я принимаю условия Договора-оферты</a></span> <span class="b24-form-control-required">*</span> <div class="b24-form-control-alert-message" style="display: none;">
+
+			Поле обязательно для заполнения
+
+		</div></label> <!----></div></div> <div class="b24-window"><div class="b24-window-overlay" style="display: none;"></div> <div class="b24-window-popup b24-window-popup-p-center" style="display: none;"><div class="b24-window-popup-wrapper" style="max-width: 600px;"><button type="button" class="b24-window-close" style="z-index: 200019;"></button> <div><!----> <div class="b24-window-scrollable" style="z-index: 199999;"><div class="b24-window-scroll-anchor"></div> <!----> <div class="b24-window-popup-body"><div style="padding: 0px 12px 12px;"><div></div> <div class="b24-form-btn-container" style="padding: 12px 0px 0px;"><div class="b24-form-btn-block"><button type="button" class="b24-form-btn">
+
+								Принимаю
+
+							</button></div> <div class="b24-form-btn-block"><button type="button" class="b24-form-btn b24-form-btn-white b24-form-btn-border">
+
+								Не принимаю
+
+							</button></div></div></div></div> <div class="b24-window-scroll-anchor"></div></div> <!----></div></div></div></div></div> <!----> <div class="b24-form-btn-container"><!----> <!----> <div class="b24-form-btn-block"><button type="submit" class="b24-form-btn">
+
+								Отправить
+
+							</button></div></div> <span style="color: red; display: none;">
+
+						Debug: fill fields
+
+					</span></form></div> <div class="b24-form-state-container"><div class="b24-form-loader" style="display: none;"><div class="b24-form-loader-icon"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 263 174"><defs><svg width="158px" height="158px" viewBox="0 0 158 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path id="bxSunLines" d="M79,0 C80.6568542,0 82,1.34314575 82,3 L82,22 C82,23.6568542 80.6568542,25 79,25 C77.3431458,25 76,23.6568542 76,22 L76,3 C76,1.34314575 77.3431458,0 79,0 Z M134.861,23.139 C136.032146,24.3104996 136.032146,26.2095004 134.861,27.381 L121.426,40.816 C120.248863,41.9529166 118.377746,41.9366571 117.220544,40.7794557 C116.063343,39.6222543 116.047083,37.7511367 117.184,36.574 L130.619,23.139 C131.7905,21.9678542 133.6895,21.9678542 134.861,23.139 L134.861,23.139 Z M158,79 C158,80.6568542 156.656854,82 155,82 L136,82 C134.343146,82 133,80.6568542 133,79 C133,77.3431458 134.343146,76 136,76 L155,76 C156.656854,76 158,77.3431458 158,79 Z M134.861,134.861 C133.6895,136.032146 131.7905,136.032146 130.619,134.861 L117.184,121.426 C116.40413,120.672777 116.091362,119.557366 116.365909,118.508478 C116.640455,117.45959 117.45959,116.640455 118.508478,116.365909 C119.557366,116.091362 120.672777,116.40413 121.426,117.184 L134.861,130.619 C136.032146,131.7905 136.032146,133.6895 134.861,134.861 Z M79,158 C77.3431458,158 76,156.656854 76,155 L76,136 C76,134.343146 77.3431458,133 79,133 C80.6568542,133 82,134.343146 82,136 L82,155 C82,156.656854 80.6568542,158 79,158 Z M23.139,134.861 C21.9678542,133.6895 21.9678542,131.7905 23.139,130.619 L36.574,117.184 C37.3272234,116.40413 38.4426337,116.091362 39.491522,116.365909 C40.5404103,116.640455 41.3595451,117.45959 41.6340915,118.508478 C41.9086378,119.557366 41.5958698,120.672777 40.816,121.426 L27.381,134.861 C26.2095004,136.032146 24.3104996,136.032146 23.139,134.861 Z M0,79 C0,77.3431458 1.34314575,76 3,76 L22,76 C23.6568542,76 25,77.3431458 25,79 C25,80.6568542 23.6568542,82 22,82 L3,82 C1.34314575,82 0,80.6568542 0,79 L0,79 Z M23.139,23.139 C24.3104996,21.9678542 26.2095004,21.9678542 27.381,23.139 L40.816,36.574 C41.5958698,37.3272234 41.9086378,38.4426337 41.6340915,39.491522 C41.3595451,40.5404103 40.5404103,41.3595451 39.491522,41.6340915 C38.4426337,41.9086378 37.3272234,41.5958698 36.574,40.816 L23.139,27.381 C21.9678542,26.2095004 21.9678542,24.3104996 23.139,23.139 Z" fill="#FFD110" class="bx-sun-lines-animate"></path></svg></defs> <g fill="none" fill-rule="evenodd"><path d="M65.745 160.5l.245-.005c13.047-.261 23.51-10.923 23.51-23.995 0-13.255-10.745-24-24-24-3.404 0-6.706.709-9.748 2.062l-.47.21-.196-.477A19.004 19.004 0 0 0 37.5 102.5c-10.493 0-19 8.507-19 19 0 1.154.103 2.295.306 3.413l.108.6-.609-.01A17.856 17.856 0 0 0 18 125.5C8.335 125.5.5 133.335.5 143s7.835 17.5 17.5 17.5h47.745zM166.5 85.5h69v-.316l.422-.066C251.14 82.73 262.5 69.564 262.5 54c0-17.397-14.103-31.5-31.5-31.5-.347 0-.694.006-1.04.017l-.395.013-.103-.382C226.025 9.455 214.63.5 201.5.5c-15.014 0-27.512 11.658-28.877 26.765l-.047.515-.512-.063a29.296 29.296 0 0 0-3.564-.217c-16.016 0-29 12.984-29 29 0 15.101 11.59 27.643 26.542 28.897l.458.039v.064z" stroke-opacity=".05" stroke="#000" fill="#000"></path> <circle stroke="#FFD110" stroke-width="6" cx="131.5" cy="95.5" r="44.5" class="b24-form-loader-icon-sun-ring"></circle></g> <use xlink:href="#bxSunLines" y="16.5" x="52.5" width="158" height="158" class="b24-form-loader-icon-sun-line"></use></svg></div></div> <div class="b24-form-state b24-form-success" style="display: none;"><div class="b24-form-state-inner"><div class="b24-form-state-icon b24-form-success-icon"></div> <div class="b24-form-state-text"><p>Отправлено!</p> <p></p></div> <!----></div> <div class="b24-form-inner-box"></div></div> <div class="b24-form-state b24-form-error" style="display: none;"><div class="b24-form-state-inner"><div class="b24-form-state-icon b24-form-error-icon"></div> <div class="b24-form-state-text"><p></p></div> <button class="b24-form-btn b24-form-btn-border b24-form-btn-tight">
+
+							Отправить еще раз						
+
+						</button></div> <div class="b24-form-inner-box"></div></div> <div class="b24-form-state b24-form-warning" style="display: none;"><div class="b24-form-state-inner"><div class="b24-form-state-icon b24-form-warning-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 169 169"><defs><circle id="a" cx="84.5" cy="84.5" r="65.5"></circle><filter x="-.8%" y="-.8%" width="101.5%" height="101.5%" filterUnits="objectBoundingBox" id="b"><feGaussianBlur stdDeviation=".5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur><feOffset dx="-1" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset><feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0886691434 0" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix><feGaussianBlur stdDeviation=".5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur><feOffset dx="1" dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset><feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.292285839 0" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix><feMerge><feMergeNode in="shadowMatrixInner1"></feMergeNode><feMergeNode in="shadowMatrixInner2"></feMergeNode></feMerge></filter></defs><g fill="none" fill-rule="evenodd"><circle stroke-opacity=".05" stroke="#000" fill-opacity=".07" fill="#000" cx="84.5" cy="84.5" r="84"></circle><use fill="#FFF" xlink:href="#a"></use><use fill="#000" filter="url(#b)" xlink:href="#a"></use><path d="M114.29 99.648L89.214 58.376c-1.932-3.168-6.536-3.168-8.427 0L55.709 99.648c-1.974 3.25.41 7.352 4.234 7.352h50.155c3.782 0 6.166-4.103 4.193-7.352zM81.404 72.756c0-1.828 1.48-3.29 3.33-3.29h.452c1.85 0 3.33 1.462 3.33 3.29v12.309c0 1.827-1.48 3.29-3.33 3.29h-.453c-1.85 0-3.33-1.463-3.33-3.29V72.756zm7.77 23.886c0 2.274-1.892 4.143-4.194 4.143s-4.193-1.869-4.193-4.143c0-2.275 1.891-4.144 4.193-4.144 2.302 0 4.193 1.869 4.193 4.144z" fill="#000" opacity=".4"></path></g></svg></div> <div class="b24-form-state-text"><p>Форма не актуальна</p></div></div> <div class="b24-form-inner-box"></div></div></div> <!----> <!----></div></div></div><script data-b24-form="inline/85/lxy5v7" data-skip-moving="true" data-b24-loaded="true">
+
+(function(w,d,u){
+
+var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+
+var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+
+})(window,document,'https://cdn-ru.bitrix24.ru/b13562102/crm/form/loader_85.js');
+
+</script>
+
+      </div><!-- popup__container -->
+
+    </div><!-- popup_wrap2 -->
+
+  </div><!-- popup_wrap1 -->
+
+</div>
+
+<div class="popup popupForm" id="popupCallback">
+
+  <a class="closeFonPopup" href="javascript:void(0);"></a>
+
+  <div class="popup__wrap1">
+
+    <div class="popup__wrap2">
+
+      <div class="popup__container">
+
+        <a class="popup__close fa fa-times" href="javascript:void(0);"></a>
+
+       <div class="b24-form"><div id="b24-291824733400334779275188339703859" data-styles-apllied="true" class="b24-form-dark b24-form-style-modern"><div class="b24-form-wrapper b24-from-state-on"><div class="b24-form-header b24-form-padding-side"><div class="b24-form-header-title">Курс о промышленном дизайне</div> <div class="b24-form-header-description">Заполните данные, чтобы записаться на курс</div></div> <div class="b24-form-content b24-form-padding-side"><form method="post" novalidate="novalidate"><!----> <!----> <div> <div class="b24-window"><div class="b24-window-overlay" style="display: none;"></div> <div class="b24-window-popup b24-window-popup-p-center" style="display: none;"><div class="b24-window-popup-wrapper" style="max-width: 600px;"><button type="button" class="b24-window-close" style="z-index: 200019;"></button> <div><!----> <div class="b24-window-scrollable" style="z-index: 199999;"><div class="b24-window-scroll-anchor"></div> <!----> <div class="b24-window-popup-body"><div style="padding: 0px 12px 12px;"><div></div> <div class="b24-form-btn-container" style="padding: 12px 0px 0px;"><div class="b24-form-btn-block"><button type="button" class="b24-form-btn">
+
+								Принимаю
+
+							</button></div> <div class="b24-form-btn-block"><button type="button" class="b24-form-btn b24-form-btn-white b24-form-btn-border">
+
+								Не принимаю
+
+							</button></div></div></div></div> <div class="b24-window-scroll-anchor"></div></div> <!----></div></div></div></div></div> <!----> <div class="b24-form-btn-container"><!----> <!----> <div class="b24-form-btn-block"><button type="submit" class="b24-form-btn">
+
+								Отправить
+
+							</button></div></div> <span style="color: red; display: none;">
+
+						Debug: fill fields
+
+					</span></form></div> <div class="b24-form-state-container"><div class="b24-form-loader" style="display: none;"><div class="b24-form-loader-icon"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 263 174"><defs><svg width="158px" height="158px" viewBox="0 0 158 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path id="bxSunLines" d="M79,0 C80.6568542,0 82,1.34314575 82,3 L82,22 C82,23.6568542 80.6568542,25 79,25 C77.3431458,25 76,23.6568542 76,22 L76,3 C76,1.34314575 77.3431458,0 79,0 Z M134.861,23.139 C136.032146,24.3104996 136.032146,26.2095004 134.861,27.381 L121.426,40.816 C120.248863,41.9529166 118.377746,41.9366571 117.220544,40.7794557 C116.063343,39.6222543 116.047083,37.7511367 117.184,36.574 L130.619,23.139 C131.7905,21.9678542 133.6895,21.9678542 134.861,23.139 L134.861,23.139 Z M158,79 C158,80.6568542 156.656854,82 155,82 L136,82 C134.343146,82 133,80.6568542 133,79 C133,77.3431458 134.343146,76 136,76 L155,76 C156.656854,76 158,77.3431458 158,79 Z M134.861,134.861 C133.6895,136.032146 131.7905,136.032146 130.619,134.861 L117.184,121.426 C116.40413,120.672777 116.091362,119.557366 116.365909,118.508478 C116.640455,117.45959 117.45959,116.640455 118.508478,116.365909 C119.557366,116.091362 120.672777,116.40413 121.426,117.184 L134.861,130.619 C136.032146,131.7905 136.032146,133.6895 134.861,134.861 Z M79,158 C77.3431458,158 76,156.656854 76,155 L76,136 C76,134.343146 77.3431458,133 79,133 C80.6568542,133 82,134.343146 82,136 L82,155 C82,156.656854 80.6568542,158 79,158 Z M23.139,134.861 C21.9678542,133.6895 21.9678542,131.7905 23.139,130.619 L36.574,117.184 C37.3272234,116.40413 38.4426337,116.091362 39.491522,116.365909 C40.5404103,116.640455 41.3595451,117.45959 41.6340915,118.508478 C41.9086378,119.557366 41.5958698,120.672777 40.816,121.426 L27.381,134.861 C26.2095004,136.032146 24.3104996,136.032146 23.139,134.861 Z M0,79 C0,77.3431458 1.34314575,76 3,76 L22,76 C23.6568542,76 25,77.3431458 25,79 C25,80.6568542 23.6568542,82 22,82 L3,82 C1.34314575,82 0,80.6568542 0,79 L0,79 Z M23.139,23.139 C24.3104996,21.9678542 26.2095004,21.9678542 27.381,23.139 L40.816,36.574 C41.5958698,37.3272234 41.9086378,38.4426337 41.6340915,39.491522 C41.3595451,40.5404103 40.5404103,41.3595451 39.491522,41.6340915 C38.4426337,41.9086378 37.3272234,41.5958698 36.574,40.816 L23.139,27.381 C21.9678542,26.2095004 21.9678542,24.3104996 23.139,23.139 Z" fill="#FFD110" class="bx-sun-lines-animate"></path></svg></defs> <g fill="none" fill-rule="evenodd"><path d="M65.745 160.5l.245-.005c13.047-.261 23.51-10.923 23.51-23.995 0-13.255-10.745-24-24-24-3.404 0-6.706.709-9.748 2.062l-.47.21-.196-.477A19.004 19.004 0 0 0 37.5 102.5c-10.493 0-19 8.507-19 19 0 1.154.103 2.295.306 3.413l.108.6-.609-.01A17.856 17.856 0 0 0 18 125.5C8.335 125.5.5 133.335.5 143s7.835 17.5 17.5 17.5h47.745zM166.5 85.5h69v-.316l.422-.066C251.14 82.73 262.5 69.564 262.5 54c0-17.397-14.103-31.5-31.5-31.5-.347 0-.694.006-1.04.017l-.395.013-.103-.382C226.025 9.455 214.63.5 201.5.5c-15.014 0-27.512 11.658-28.877 26.765l-.047.515-.512-.063a29.296 29.296 0 0 0-3.564-.217c-16.016 0-29 12.984-29 29 0 15.101 11.59 27.643 26.542 28.897l.458.039v.064z" stroke-opacity=".05" stroke="#000" fill="#000"></path> <circle stroke="#FFD110" stroke-width="6" cx="131.5" cy="95.5" r="44.5" class="b24-form-loader-icon-sun-ring"></circle></g> <use xlink:href="#bxSunLines" y="16.5" x="52.5" width="158" height="158" class="b24-form-loader-icon-sun-line"></use></svg></div></div> <div class="b24-form-state b24-form-success" style="display: none;"><div class="b24-form-state-inner"><div class="b24-form-state-icon b24-form-success-icon"></div> <div class="b24-form-state-text"><p>Отправлено!</p> <p></p></div> <!----></div> <div class="b24-form-inner-box"></div></div> <div class="b24-form-state b24-form-error" style="display: none;"><div class="b24-form-state-inner"><div class="b24-form-state-icon b24-form-error-icon"></div> <div class="b24-form-state-text"><p></p></div> <button class="b24-form-btn b24-form-btn-border b24-form-btn-tight">
+
+							Отправить еще раз						
+
+						</button></div> <div class="b24-form-inner-box"></div></div> <div class="b24-form-state b24-form-warning"><div class="b24-form-state-inner"><div class="b24-form-state-icon b24-form-warning-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 169 169"><defs><circle id="a" cx="84.5" cy="84.5" r="65.5"></circle><filter x="-.8%" y="-.8%" width="101.5%" height="101.5%" filterUnits="objectBoundingBox" id="b"><feGaussianBlur stdDeviation=".5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur><feOffset dx="-1" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset><feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0886691434 0" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix><feGaussianBlur stdDeviation=".5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur><feOffset dx="1" dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset><feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.292285839 0" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix><feMerge><feMergeNode in="shadowMatrixInner1"></feMergeNode><feMergeNode in="shadowMatrixInner2"></feMergeNode></feMerge></filter></defs><g fill="none" fill-rule="evenodd"><circle stroke-opacity=".05" stroke="#000" fill-opacity=".07" fill="#000" cx="84.5" cy="84.5" r="84"></circle><use fill="#FFF" xlink:href="#a"></use><use fill="#000" filter="url(#b)" xlink:href="#a"></use><path d="M114.29 99.648L89.214 58.376c-1.932-3.168-6.536-3.168-8.427 0L55.709 99.648c-1.974 3.25.41 7.352 4.234 7.352h50.155c3.782 0 6.166-4.103 4.193-7.352zM81.404 72.756c0-1.828 1.48-3.29 3.33-3.29h.452c1.85 0 3.33 1.462 3.33 3.29v12.309c0 1.827-1.48 3.29-3.33 3.29h-.453c-1.85 0-3.33-1.463-3.33-3.29V72.756zm7.77 23.886c0 2.274-1.892 4.143-4.194 4.143s-4.193-1.869-4.193-4.143c0-2.275 1.891-4.144 4.193-4.144 2.302 0 4.193 1.869 4.193 4.144z" fill="#000" opacity=".4"></path></g></svg></div> <div class="b24-form-state-text"><p>Форма не актуальна</p></div></div> <div class="b24-form-inner-box"></div></div></div> <!----> <!----></div></div></div><script data-b24-form="inline/101/chrva5" data-skip-moving="true" data-b24-loaded="true">
+
+(function(w,d,u){
+
+var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+
+var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+
+})(window,document,'https://cdn-ru.bitrix24.ru/b13562102/crm/form/loader_101.js');
+
+</script>
+
+      </div><!-- popup__container -->
+
+    </div><!-- popup_wrap2 -->
+
+  </div><!-- popup_wrap1 -->
+
+</div>
+
+<script src="js/device.min.js"></script>
+
+<!--<link rel="preload" as="style" onload="this.rel='stylesheet'" href="fonts/icomoon/style.css"/>-->
+
+<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="css/main.css"/>
+
+<script src="js/blazy.min.js"></script>
+
+<script src="js/slick.min.js"></script>
+
+<script src="js/jquery.fancybox.min.js"></script>
+
+<script src="js/mainDesktop.js?261120211026"></script>
+
+<script>
+
+  jQuery(document).ready(function(){
+
+    setTimeout(function () {
+
+      jQuery('.wrap').css({'opacity': 1});
+
+    }, 300);
+
+  });
+
+
+
+  $('[data-fancybox="gallery"]').fancybox({
+
+    // Options will go here
+
+  });
+
+</script>
+
+</div><!-- wrap -->
+
+</body>
+
+</html>
+
